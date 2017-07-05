@@ -1,0 +1,4 @@
+---- SERVER_LIST_PATH Matches (3 in 3 files) ----
+Afac.c (afac_server):    fd = fopen(SERVER_LIST_PATH, "a+");
+Jay_global.h:#define SERVER_LIST_PATH "/WORK/home/yujie/yujie/afac/server_list"
+Posix.c (afac_client):    fd = __real_fopen(SERVER_LIST_PATH, "a+");
